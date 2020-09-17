@@ -4,28 +4,29 @@ import { Link } from "react-router-dom";
 import AppsIcon from "@material-ui/icons/Apps";
 import { Avatar } from "@material-ui/core";
 import Search from "../components/Search";
+
 function Home() {
   return (
     <div className="home">
-      <div className="home_header">
-        <div className="home_headerLeft">
+      <div class="home__header">
+        <div class="home__headerLeft">
           <Link to="/about">About</Link>
-          <Link to="/store">Stores</Link>
+          <Link to="/store">Store</Link>
         </div>
-        <div className="home_headerRight">
+        <div class="home__headerRight">
           <Link to="/gmail">Gmail</Link>
           <Link to="/images">Images</Link>
           <AppsIcon />
           <Avatar />
         </div>
       </div>
-      <div className="home_body">
+      <div class="home__body">
         <img
-          src="https://iabtechlab.com/wp-content/uploads/2018/12/google-logo.png"
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
           alt=""
         />
-        <div className="home_input">
-          <Search HideButtons />
+        <div class="home__inputContainer">
+          <Search />
         </div>
       </div>
     </div>

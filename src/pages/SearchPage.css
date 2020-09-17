@@ -1,4 +1,4 @@
-.searchPage_header {
+.searchPage__header {
   display: flex;
   position: sticky;
   top: 0;
@@ -9,84 +9,84 @@
   border-bottom: 1px solid lightgray;
 }
 
-.searchPage_logo {
+.searchPage__logo {
   object-fit: contain;
   height: 50px;
   margin-right: 50px;
 }
 
-.searchPage_header > .search > .search_input {
+.searchPage__header > .search > .search__input {
   margin-top: 0;
   width: unset;
   margin: unset;
   max-width: unset;
 }
 
-.searchPage_options {
+.searchPage__options {
   display: flex;
   align-items: center;
   color: grey;
   margin-top: 30px;
 }
 
-.searchPage_options a,
-.searchPage_optionsRight a {
+.searchPage__options a,
+.searchPage__optionsRight a {
   text-decoration: none;
   color: grey;
 }
 
-.searchPage_optionsRight,
-.searchPage_optionsLeft {
+.searchPage__optionsRight,
+.searchPage__optionsLeft {
   display: flex;
 }
 
-.searchPage_optionsRight {
+.searchPage__optionsRight {
   margin-left: 80px;
 }
 
-.searchPage_option {
+.searchPage__option {
   display: flex;
   align-items: center;
   margin-right: 20px;
 }
 
-.searchPage_option a {
+.searchPage__option a {
   margin-left: 5px;
 }
 
-.searchPage_result {
+.searchPage__result {
   margin: 40px 0;
 }
 
-.searchPage_resultCount {
+.searchPage__resultCount {
   color: #70757a;
   font-size: 14px;
 }
 
-.searchPage_results {
+.searchPage__results {
   max-width: 650px;
   margin-top: 20px;
   margin-left: 240px;
   margin-bottom: 100px;
 }
 
-.searchPage_resultTitle {
+.searchPage__resultTitle {
   text-decoration: none;
 }
 
-.searchPage_resultTitle:hover {
+.searchPage__resultTitle:hover {
   text-decoration: underline;
 }
 
-.searchPage_resultTitle > h2 {
+.searchPage__resultTitle > h2 {
   font-weight: 500;
 }
 
-.searchPage_resultSnippet {
+.searchPage__resultSnippet {
   margin-top: 10px;
 }
 
-.searchPage_resultLink {
+.searchPage__resultLink {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -94,14 +94,14 @@
   margin-bottom: 3px;
 }
 
-.searchPage_resultImage {
+.searchPage__resultImage {
   object-fit: contain;
-  height: 20px; 
+  height: 20px;
   width: 20px;
   margin-right: 10px;
 }
 
-.searchPage_headerBody > .search > .search_input {
+.searchPage__headerBody > .search > .search__input {
   margin-left: 0;
   margin-top: 0;
 }

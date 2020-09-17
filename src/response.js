@@ -9,27 +9,27 @@ export default {
     request: [
       {
         title: "Google Custom Search - tesla",
-        totalResults: "313000000",
+        totalResults: "293000000",
         searchTerms: "tesla",
         count: 10,
         startIndex: 1,
         inputEncoding: "utf8",
         outputEncoding: "utf8",
         safe: "off",
-        cx: "591b20b132e1b0f48",
+        cx: "707ed3c1e6d398bea",
       },
     ],
     nextPage: [
       {
         title: "Google Custom Search - tesla",
-        totalResults: "313000000",
+        totalResults: "293000000",
         searchTerms: "tesla",
         count: 10,
         startIndex: 11,
         inputEncoding: "utf8",
         outputEncoding: "utf8",
         safe: "off",
-        cx: "591b20b132e1b0f48",
+        cx: "707ed3c1e6d398bea",
       },
     ],
   },
@@ -37,10 +37,10 @@ export default {
     title: "Google",
   },
   searchInformation: {
-    searchTime: 0.616382,
-    formattedSearchTime: "0.62",
-    totalResults: "313000000",
-    formattedTotalResults: "313,000,000",
+    searchTime: 0.727149,
+    formattedSearchTime: "0.73",
+    totalResults: "293000000",
+    formattedTotalResults: "293,000,000",
   },
   items: [
     {
@@ -61,9 +61,9 @@ export default {
         cse_thumbnail: [
           {
             src:
-              "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRLwcVTUuHf_VXGFHZNRLAiU19-PuPsuWtM6Gcl5DYeYyD3DrhtMgd688Q",
-            width: "311",
-            height: "162",
+              "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQilrbVq1ptUCXeIWo0vM8Bhpm4tt-WiPlEAJzg7aogXD9gGBpQ_1weVw",
+            width: "150",
+            height: "79",
           },
         ],
         metatags: [
@@ -234,57 +234,48 @@ export default {
     },
     {
       kind: "customsearch#result",
-      title: "Investors Overview | Tesla, Inc.",
-      htmlTitle: "Investors Overview | \u003cb\u003eTesla\u003c/b\u003e, Inc.",
-      link: "https://ir.tesla.com/investor-relations",
-      displayLink: "ir.tesla.com",
+      title: "Tesla, Inc. - Wikipedia",
+      htmlTitle: "\u003cb\u003eTesla\u003c/b\u003e, Inc. - Wikipedia",
+      link: "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+      displayLink: "en.wikipedia.org",
       snippet:
-        "The Investor Relations website contains information about Tesla, Inc.'s business \nfor stockholders, potential investors, and financial analysts.",
+        "Tesla, Inc. (formerly Tesla Motors, Inc.) is an American electric vehicle and clean \nenergy company based in Palo Alto, California. The company specializes in ...",
       htmlSnippet:
-        "The Investor Relations website contains information about \u003cb\u003eTesla\u003c/b\u003e, Inc.&#39;s business \u003cbr\u003e\nfor stockholders, potential investors, and financial analysts.",
-      cacheId: "DiUql1nUr6gJ",
-      formattedUrl: "https://ir.tesla.com/investor-relations",
+        "\u003cb\u003eTesla\u003c/b\u003e, Inc. (formerly \u003cb\u003eTesla\u003c/b\u003e Motors, Inc.) is an American electric vehicle and clean \u003cbr\u003e\nenergy company based in Palo Alto, California. The company specializes in&nbsp;...",
+      formattedUrl: "https://en.wikipedia.org/wiki/Tesla,_Inc.",
       htmlFormattedUrl:
-        "https://ir.\u003cb\u003etesla\u003c/b\u003e.com/investor-relations",
+        "https://en.wikipedia.org/wiki/\u003cb\u003eTesla\u003c/b\u003e,_Inc.",
       pagemap: {
+        hcard: [
+          {
+            url_text: "www.tesla.com",
+            bday: "2003-07-01",
+            fn: "Tesla, Inc.",
+            nickname: "Tesla Motors, Inc. (2003–2017)",
+            logo: "Tesla's headquarters in Palo Alto",
+            category: "Public",
+            url: "www.tesla.com",
+          },
+        ],
         cse_thumbnail: [
           {
             src:
-              "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSqW5DaCO4ZZ3ycN3SGvz_bjJatGp-Uj1a9bfkxrh5KPRQHT_vOhaz_tweU",
-            width: "263",
-            height: "192",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwtQ4SIVjsbrM1rg23xZvICpXrQqApgHnt2ZmM27jPhRfXhEEG7GSEacU",
+            width: "198",
+            height: "255",
           },
         ],
         metatags: [
           {
+            referrer: "origin",
             "og:image":
-              "https://www.tesla.com/ns_videos/hp_2019/main-hero-desktop.jpg",
-            "twitter:card": "summary_large_image",
-            "og:type": "website",
-            "twitter:title": "Investors Overview | Tesla, Inc.",
-            "og:site_name": "Tesla, Inc.",
-            "og:image:url":
-              "https://www.tesla.com/ns_videos/hp_2019/main-hero-desktop.jpg",
-            handheldfriendly: "true",
-            "twitter:url": "https://ir.tesla.com/investor-relations",
-            "og:title": "Investors Overview | Tesla, Inc.",
-            "og:description":
-              "Tesla’s mission is to accelerate the world’s transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products.",
-            "twitter:image": "https://tesla.com/ns_videos/homepage-social.jpg",
-            "og:image:secure_url":
-              "https://www.tesla.com/ns_videos/hp_2019/main-hero-desktop.jpg",
-            referrer: "no-referrer",
-            viewport: "width=device-width, initial-scale=1.0",
-            "twitter:description":
-              "Tesla’s mission is to accelerate the world’s transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products.",
-            mobileoptimized: "width",
-            "og:url": "https://ir.tesla.com/investor-relations",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1200px-Tesla_Motors.svg.png",
           },
         ],
         cse_image: [
           {
             src:
-              "https://www.tesla.com/ns_videos/hp_2019/main-hero-desktop.jpg",
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1200px-Tesla_Motors.svg.png",
           },
         ],
       },
@@ -355,98 +346,54 @@ export default {
     },
     {
       kind: "customsearch#result",
-      title: "Tesla - Official Trailer I HD I IFC Films - YouTube",
-      htmlTitle:
-        "\u003cb\u003eTesla\u003c/b\u003e - Official Trailer I HD I IFC Films - YouTube",
-      link: "https://www.youtube.com/watch?v=e4U-23TOKms",
-      displayLink: "www.youtube.com",
+      title: "Tesla Short Shorts",
+      htmlTitle: "\u003cb\u003eTesla\u003c/b\u003e Short Shorts",
+      link: "https://shop.tesla.com/product/tesla-short-shorts",
+      displayLink: "shop.tesla.com",
       snippet:
-        "Jul 10, 2020 ... The film tracks Tesla's uneasy interactions with his fellow inventor Thomas \nEdison (Kyle MacLachlan) and his patron George Westinghouse ...",
+        "Celebrate summer with Tesla Short Shorts. Run like the wind or entertain like \nLiberace with our red satin and gold trim design. Relax poolside or lounge \nindoors ...",
       htmlSnippet:
-        "Jul 10, 2020 \u003cb\u003e...\u003c/b\u003e The film tracks \u003cb\u003eTesla&#39;s\u003c/b\u003e uneasy interactions with his fellow inventor Thomas \u003cbr\u003e\nEdison (Kyle MacLachlan) and his patron George Westinghouse&nbsp;...",
-      formattedUrl: "https://www.youtube.com/watch?v=e4U-23TOKms",
-      htmlFormattedUrl: "https://www.youtube.com/watch?v=e4U-23TOKms",
+        "Celebrate summer with \u003cb\u003eTesla\u003c/b\u003e Short Shorts. Run like the wind or entertain like \u003cbr\u003e\nLiberace with our red satin and gold trim design. Relax poolside or lounge \u003cbr\u003e\nindoors&nbsp;...",
+      cacheId: "W2vM-vU5b2YJ",
+      formattedUrl: "https://shop.tesla.com/product/tesla-short-shorts",
+      htmlFormattedUrl:
+        "https://shop.\u003cb\u003etesla\u003c/b\u003e.com/product/\u003cb\u003etesla\u003c/b\u003e-short-shorts",
       pagemap: {
         cse_thumbnail: [
           {
             src:
-              "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRWCJMSvBsld14E5aRdJfaFa1y6f3fRSZFi6HWeKmycmfymJeB5fh-qNXqi",
-            width: "300",
-            height: "168",
-          },
-        ],
-        imageobject: [
-          {
-            width: "1280",
-            url: "https://i.ytimg.com/vi/e4U-23TOKms/maxresdefault.jpg",
-            height: "720",
-          },
-        ],
-        person: [
-          {
-            name: "IFC Films",
-            url: "http://www.youtube.com/user/IFCFilmsTube",
+              "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTvmVpoKKexKNQ0ozCuGWzwL3JAXlEqtftGrmlmuBfuS2B9GZuDnThG3Yk",
+            width: "224",
+            height: "225",
           },
         ],
         metatags: [
           {
-            "og:image": "https://i.ytimg.com/vi/e4U-23TOKms/maxresdefault.jpg",
-            "og:image:width": "1280",
-            "og:type": "video.other",
-            "og:site_name": "YouTube",
-            "al:ios:app_name": "YouTube",
-            "og:title": "Tesla - Official Trailer I HD I IFC Films",
-            "og:image:height": "720",
-            "al:android:package": "com.google.android.youtube",
-            title: "Tesla - Official Trailer I HD I IFC Films",
-            "al:ios:url":
-              "vnd.youtube://www.youtube.com/watch?v=e4U-23TOKms&feature=applinks",
-            "al:web:url":
-              "https://www.youtube.com/watch?v=e4U-23TOKms&feature=applinks",
-            "og:video:secure_url": "https://www.youtube.com/embed/e4U-23TOKms",
-            "og:video:tag": "Tesla",
+            "msapplication-tilecolor": "#cc0000",
+            "og:image":
+              "https://www.tesla.com/ns_videos/commerce/content/dam/tesla/LIFESTYLE/ACTIVEWEAR/shorts/8529140-00-A_0.jpg",
+            "og:type": "product",
+            "twitter:card": "summary_large_image",
+            "twitter:title": "Tesla Short Shorts",
+            "twitter:site:id": "13298072",
+            "og:title": "Tesla Short Shorts",
+            "msapplication-tileimage": "/images/icons/mstile-144x144.png?2",
             "og:description":
-              "Opening in theaters and VOD August 21 Directed by: Michael Almereyda Starring: Ethan Hawke, Eve Hewson, Hannah Gross & Kyle MacLachlan Brilliant, visionary N...",
-            "og:video:width": "1280",
-            "al:ios:app_store_id": "544007664",
-            "al:android:url":
-              "vnd.youtube://www.youtube.com/watch?v=e4U-23TOKms&feature=applinks",
-            "og:video:type": "text/html",
-            "og:video:height": "720",
-            "og:video:url": "https://www.youtube.com/embed/e4U-23TOKms",
-            "og:url": "https://www.youtube.com/watch?v=e4U-23TOKms",
-            "al:android:app_name": "YouTube",
-          },
-        ],
-        videoobject: [
-          {
-            embedurl: "https://www.youtube.com/embed/e4U-23TOKms",
-            playertype: "HTML5 Flash",
-            isfamilyfriendly: "True",
-            uploaddate: "2020-07-10",
-            description:
-              "Opening in theaters and VOD August 21 Directed by: Michael Almereyda Starring: Ethan Hawke, Eve Hewson, Hannah Gross & Kyle MacLachlan Brilliant, visionary N...",
-            videoid: "e4U-23TOKms",
-            url: "https://www.youtube.com/watch?v=e4U-23TOKms",
-            duration: "PT2M33S",
-            unlisted: "False",
-            name: "Tesla - Official Trailer I HD I IFC Films",
-            paid: "False",
-            width: "1280",
-            regionsallowed:
-              "AD,AE,AF,AG,AI,AL,AM,AO,AQ,AR,AS,AT,AU,AW,AX,AZ,BA,BB,BD,BE,BF,BG,BH,BI,BJ,BL,BM,BN,BO,BQ,BR,BS,BT,BV,BW,BY,BZ,CA,CC,CD,CF,CG,CH,CI,CK,CL,CM,CN,CO,CR,CU,CV,CW,CX,CY,CZ,DE,DJ,DK,DM,DO,DZ,EC,EE,EG,EH...",
-            genre: "Film & Animation",
-            interactioncount: "662045",
-            channelid: "UCOn923UnbV8H9zo_lO6ZCRw",
-            datepublished: "2020-07-10",
-            thumbnailurl:
-              "https://i.ytimg.com/vi/e4U-23TOKms/maxresdefault.jpg",
-            height: "720",
+              "Celebrate summer with Tesla Short Shorts. Run like the wind or entertain like Liberace with our red satin and gold trim design. Relax poolside or lounge indoors year-round with our limited-edition Tesla Short Shorts, featuring our signature Tesla logo in front with &ldquo;S3XY&rdquo; across the back. Enjoy exceptional comfort from the closing bell. See Size Chart for sizing and fit guidelines.",
+            "twitter:creator": "@teslamotors",
+            "twitter:image":
+              "https://www.tesla.com/ns_videos/commerce/content/dam/tesla/LIFESTYLE/ACTIVEWEAR/shorts/8529140-00-A_0.jpg",
+            "twitter:site": "@teslamotors",
+            "twitter:creator:id": "13298072",
+            viewport: "width=device-width, initial-scale=1",
+            "twitter:description":
+              "Celebrate summer with Tesla Short Shorts. Run like the wind or entertain like Liberace with our red satin and gold trim design. Relax poolside or lounge indoors year-round with our limited-edition Tesla Short Shorts, featuring our signature Tesla logo in front with &ldquo;S3XY&rdquo; across the back. Enjoy exceptional comfort from the closing bell. See Size Chart for sizing and fit guidelines.",
           },
         ],
         cse_image: [
           {
-            src: "https://i.ytimg.com/vi/e4U-23TOKms/maxresdefault.jpg",
+            src:
+              "https://www.tesla.com/ns_videos/commerce/content/dam/tesla/LIFESTYLE/ACTIVEWEAR/shorts/8529140-00-A_0.jpg",
           },
         ],
       },
@@ -515,48 +462,57 @@ export default {
     },
     {
       kind: "customsearch#result",
-      title: "Tesla, Inc. - Wikipedia",
-      htmlTitle: "\u003cb\u003eTesla\u003c/b\u003e, Inc. - Wikipedia",
-      link: "https://en.wikipedia.org/wiki/Tesla,_Inc.",
-      displayLink: "en.wikipedia.org",
+      title: "Investors Overview | Tesla, Inc.",
+      htmlTitle: "Investors Overview | \u003cb\u003eTesla\u003c/b\u003e, Inc.",
+      link: "https://ir.tesla.com/investor-relations",
+      displayLink: "ir.tesla.com",
       snippet:
-        "Tesla, Inc. (formerly Tesla Motors, Inc.) is an American electric vehicle and clean \nenergy company based in Palo Alto, California. Tesla's current products include ...",
+        "The Investor Relations website contains information about Tesla, Inc.'s business \nfor stockholders, potential investors, and financial analysts.",
       htmlSnippet:
-        "\u003cb\u003eTesla\u003c/b\u003e, Inc. (formerly \u003cb\u003eTesla\u003c/b\u003e Motors, Inc.) is an American electric vehicle and clean \u003cbr\u003e\nenergy company based in Palo Alto, California. \u003cb\u003eTesla&#39;s\u003c/b\u003e current products include&nbsp;...",
-      formattedUrl: "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+        "The Investor Relations website contains information about \u003cb\u003eTesla\u003c/b\u003e, Inc.&#39;s business \u003cbr\u003e\nfor stockholders, potential investors, and financial analysts.",
+      cacheId: "DiUql1nUr6gJ",
+      formattedUrl: "https://ir.tesla.com/investor-relations",
       htmlFormattedUrl:
-        "https://en.wikipedia.org/wiki/\u003cb\u003eTesla\u003c/b\u003e,_Inc.",
+        "https://ir.\u003cb\u003etesla\u003c/b\u003e.com/investor-relations",
       pagemap: {
-        hcard: [
-          {
-            url_text: "www.tesla.com",
-            bday: "2003-07-01",
-            fn: "Tesla, Inc.",
-            nickname: "Tesla Motors, Inc. (2003–2017)",
-            logo: "Tesla's headquarters in Palo Alto",
-            category: "Public",
-            url: "www.tesla.com",
-          },
-        ],
         cse_thumbnail: [
           {
             src:
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwtQ4SIVjsbrM1rg23xZvICpXrQqApgHnt2ZmM27jPhRfXhEEG7GSEacU",
-            width: "198",
-            height: "255",
+              "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSqW5DaCO4ZZ3ycN3SGvz_bjJatGp-Uj1a9bfkxrh5KPRQHT_vOhaz_tweU",
+            width: "263",
+            height: "192",
           },
         ],
         metatags: [
           {
-            referrer: "origin",
             "og:image":
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1200px-Tesla_Motors.svg.png",
+              "https://www.tesla.com/ns_videos/hp_2019/main-hero-desktop.jpg",
+            "twitter:card": "summary_large_image",
+            "og:type": "website",
+            "twitter:title": "Investors Overview | Tesla, Inc.",
+            "og:site_name": "Tesla, Inc.",
+            "og:image:url":
+              "https://www.tesla.com/ns_videos/hp_2019/main-hero-desktop.jpg",
+            handheldfriendly: "true",
+            "twitter:url": "https://ir.tesla.com/investor-relations",
+            "og:title": "Investors Overview | Tesla, Inc.",
+            "og:description":
+              "Tesla’s mission is to accelerate the world’s transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products.",
+            "twitter:image": "https://tesla.com/ns_videos/homepage-social.jpg",
+            "og:image:secure_url":
+              "https://www.tesla.com/ns_videos/hp_2019/main-hero-desktop.jpg",
+            referrer: "no-referrer",
+            viewport: "width=device-width, initial-scale=1.0",
+            "twitter:description":
+              "Tesla’s mission is to accelerate the world’s transition to sustainable energy. Today, Tesla builds not only all-electric vehicles but also infinitely scalable clean energy generation and storage products.",
+            mobileoptimized: "width",
+            "og:url": "https://ir.tesla.com/investor-relations",
           },
         ],
         cse_image: [
           {
             src:
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/1200px-Tesla_Motors.svg.png",
+              "https://www.tesla.com/ns_videos/hp_2019/main-hero-desktop.jpg",
           },
         ],
       },
@@ -612,7 +568,7 @@ export default {
             "al:ios:app_name": "CNBC Business News and Finance",
             author: "CNBC",
             "og:title":
-              "TSLA:441.76 -8.00 (-1.7787%) - Stock Price, Quote and News - CNBC",
+              "TSLA:2001.83 123.30 (6.56%) - Stock Price, Quote and News - CNBC",
             "article:author": "https://www.facebook.com/CNBC",
             referrer: "unsafe-url",
             viewport:
@@ -655,9 +611,9 @@ export default {
       link: "https://en.wikipedia.org/wiki/Nikola_Tesla",
       displayLink: "en.wikipedia.org",
       snippet:
-        "Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical \nengineer, and futurist best known for his contributions to the design of the ...",
+        "Nikola Tesla was a Serbian-American inventor, electrical engineer, mechanical \nengineer, and futurist who is best known for his contributions to the design of the\n ...",
       htmlSnippet:
-        "Nikola \u003cb\u003eTesla\u003c/b\u003e was a Serbian-American inventor, electrical engineer, mechanical \u003cbr\u003e\nengineer, and futurist best known for his contributions to the design of the&nbsp;...",
+        "Nikola \u003cb\u003eTesla\u003c/b\u003e was a Serbian-American inventor, electrical engineer, mechanical \u003cbr\u003e\nengineer, and futurist who is best known for his contributions to the design of the\u003cbr\u003e\n&nbsp;...",
       cacheId: "ffC4b7aiemYJ",
       formattedUrl: "https://en.wikipedia.org/wiki/Nikola_Tesla",
       htmlFormattedUrl:
@@ -670,7 +626,7 @@ export default {
             bday: "1856-07-10",
             fn: "Nikola Tesla",
             nickname: "Никола Тесла",
-            label: "Nikola Tesla Museum Belgrade, Serbia",
+            label: "Nikola Tesla Museum, Belgrade, Serbia",
             category: "Austrian (1856–1891) American (1891–1943)",
           },
         ],

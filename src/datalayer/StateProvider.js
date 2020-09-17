@@ -10,4 +10,4 @@ export const StateProvider = ({ reducer, initialState, children }) => (
 );
 
 // Hook which allows us to pull information from the daya layer
-export const useStateValue = () => useContext(StateContext);
+export const useStateProviderValue = () => useContext(StateContext);
