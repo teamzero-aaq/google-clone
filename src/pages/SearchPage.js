@@ -5,22 +5,23 @@ import useGoogleSearch from "../useGoogleSearch";
 import { Link } from "react-router-dom";
 import Search from "../components/Search";
 import Response from "../response.js";
-
 import SearchIcon from "@material-ui/icons/Search";
 import DescriptionIcon from "@material-ui/icons/Description";
 import ImageIcon from "@material-ui/icons/Image";
 import LocalOfferIcon from "@material-ui/icons/LocalOffer";
 import RoomIcon from "@material-ui/icons/Room";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
+import AppsIcon from "@material-ui/icons/Apps";
+import { Avatar } from "@material-ui/core";
 
 function SearchPage() {
   const [{ term }] = useStateProviderValue();
 
   // Live API Call
-  const { data } = useGoogleSearch(term);
+  // const { data } = useGoogleSearch(term);
 
   // Mock API
-  // const data = Response;
+  const data = Response;
 
   console.log(data);
 
@@ -52,15 +53,15 @@ function SearchPage() {
               </div>
               <div class="searchPage__option">
                 <LocalOfferIcon />
-                <Link to="/all">shopping</Link>
+                <Link to="/all">Shopping</Link>
               </div>
               <div class="searchPage__option">
                 <RoomIcon />
-                <Link to="/all">maps</Link>
+                <Link to="/all">Maps</Link>
               </div>
               <div class="searchPage__option">
                 <MoreVertIcon />
-                <Link to="/all">more</Link>
+                <Link to="/all">More</Link>
               </div>
             </div>
             <div class="searchPage__optionsRight">
@@ -72,6 +73,10 @@ function SearchPage() {
               </div>
             </div>
           </div>
+        </div>
+        <div class="searchPage__headerRight">
+          <AppsIcon />
+          <Avatar />
         </div>
       </div>
 
@@ -86,14 +91,14 @@ function SearchPage() {
           {data?.items.map((item) => (
             <div className="searchPage__result">
               <a className="searchPage__resultLink" href={item.link}>
-                {item.pagemap?.cse_image?.length > 0 &&
+                {/* {item.pagemap?.cse_image?.length > 0 &&
                   item.pagemap?.cse_image[0]?.src && (
                     <img
                       className="searchPage__resultImage"
                       src={item.pagemap?.cse_image[0]?.src}
                       alt=""
                     />
-                  )}
+                  )} */}
                 {item.displayLink} ∆
               </a>
               <a href={item.link} className="searchPage__resultTitle">
