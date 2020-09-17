@@ -18,10 +18,10 @@ function SearchPage() {
   const [{ term }] = useStateProviderValue();
 
   // Live API Call
-  // const { data } = useGoogleSearch(term);
+  const { data } = useGoogleSearch(term);
 
   // Mock API
-  const data = Response;
+  // const data = Response;
 
   console.log(data);
 
